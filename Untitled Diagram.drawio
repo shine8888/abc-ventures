@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-27T08:10:26.503Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="77oYo2OB5zEBKAPlzEhz" version="22.1.12" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-27T08:13:53.635Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="ozYffNfcMVkfmzHa0gc1" version="22.1.12" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="3164" dy="1157" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -50,7 +50,7 @@
           <mxGeometry x="210" y="600" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BJMDJTZMhuAp6oQoQUDJ-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-680" y="240" width="560" height="880" as="geometry" />
+          <mxGeometry x="-680" y="240" width="560" height="1120" as="geometry" />
         </mxCell>
         <mxCell id="BJMDJTZMhuAp6oQoQUDJ-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BJMDJTZMhuAp6oQoQUDJ-2" target="BJMDJTZMhuAp6oQoQUDJ-14">
           <mxGeometry relative="1" as="geometry" />
@@ -330,6 +330,15 @@
           <mxGeometry x="800" y="975" width="150" height="30" as="geometry">
             <mxRectangle width="150" height="30" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="BJMDJTZMhuAp6oQoQUDJ-77" value="Update logic to show private articles after successful payment" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-410" y="1170" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="BJMDJTZMhuAp6oQoQUDJ-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BJMDJTZMhuAp6oQoQUDJ-79" target="BJMDJTZMhuAp6oQoQUDJ-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BJMDJTZMhuAp6oQoQUDJ-79" value="/shared/aritcles" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-660" y="1200" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
