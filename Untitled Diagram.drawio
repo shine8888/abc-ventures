@@ -1,4 +1,4 @@
-<mxfile modified="2024-05-22T02:16:36.730Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="5roaJd52RF6hV5veeXlb" version="24.4.3" type="github">
+<mxfile modified="2024-05-24T03:27:28.167Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="5ua16nZHtmeo5tmg9Jy3" version="24.4.3" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="3740" dy="2110" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -6,15 +6,6 @@
         <mxCell id="1" parent="0" />
         <mxCell id="UEzPUAAOIrF-is8g5C7q-175" value="AWS Cloud" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_aws_cloud_alt;strokeColor=#232F3E;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#232F3E;dashed=0;labelBackgroundColor=#ffffff;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;" parent="1" vertex="1">
           <mxGeometry x="-90" y="-789.5" width="1520" height="1989.5" as="geometry" />
-        </mxCell>
-        <mxCell id="UEzPUAAOIrF-is8g5C7q-198" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=open;endFill=0;strokeColor=#808080;strokeWidth=2;" parent="UEzPUAAOIrF-is8g5C7q-175" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="666" y="99.5" />
-            </Array>
-            <mxPoint x="739.9999999999998" y="100.00000000000011" as="sourcePoint" />
-            <mxPoint x="666" y="220.0000000000001" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="p87CbuBcReerhUkE5k2M-15" value="" style="group" parent="UEzPUAAOIrF-is8g5C7q-175" vertex="1" connectable="0">
           <mxGeometry x="10" y="40" width="90" height="123" as="geometry" />
@@ -33,9 +24,6 @@
         </mxCell>
         <mxCell id="p87CbuBcReerhUkE5k2M-16" value="Transform Lambda" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="p87CbuBcReerhUkE5k2M-17" vertex="1">
           <mxGeometry x="9" y="89.5" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="p87CbuBcReerhUkE5k2M-18" value="Renn Mail S3&lt;br&gt;Bucket Backup" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#277116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.bucket;labelBackgroundColor=#ffffff;" parent="UEzPUAAOIrF-is8g5C7q-175" vertex="1">
-          <mxGeometry x="633.49" y="219.5" width="73" height="75.92" as="geometry" />
         </mxCell>
         <mxCell id="p87CbuBcReerhUkE5k2M-21" value="" style="group" parent="UEzPUAAOIrF-is8g5C7q-175" vertex="1" connectable="0">
           <mxGeometry x="850" y="209.5" width="78" height="120" as="geometry" />
@@ -70,9 +58,6 @@
         <mxCell id="p87CbuBcReerhUkE5k2M-30" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Remove transformed emails&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="UEzPUAAOIrF-is8g5C7q-175" vertex="1">
           <mxGeometry x="300" y="86.5" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="p87CbuBcReerhUkE5k2M-33" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Storing transformed emails to backup&lt;/font&gt;&lt;span style=&quot;font-size: 8px; background-color: initial;&quot;&gt;&amp;nbsp;bucket&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="UEzPUAAOIrF-is8g5C7q-175" vertex="1">
-          <mxGeometry x="603.5" y="139" width="60" height="51" as="geometry" />
-        </mxCell>
         <mxCell id="p87CbuBcReerhUkE5k2M-34" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Storing transformed emails contents to database&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="UEzPUAAOIrF-is8g5C7q-175" vertex="1">
           <mxGeometry x="890" y="118" width="60" height="51" as="geometry" />
         </mxCell>
@@ -106,7 +91,7 @@
         <mxCell id="p87CbuBcReerhUkE5k2M-77" value="Database" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="UEzPUAAOIrF-is8g5C7q-175" vertex="1">
           <mxGeometry x="1140" y="479.5" width="100" height="690" as="geometry" />
         </mxCell>
-        <mxCell id="p87CbuBcReerhUkE5k2M-78" value="Transform Lambda" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="UEzPUAAOIrF-is8g5C7q-175" vertex="1">
+        <mxCell id="p87CbuBcReerhUkE5k2M-78" value="Event Bridge" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="UEzPUAAOIrF-is8g5C7q-175" vertex="1">
           <mxGeometry x="50" y="479.5" width="100" height="520" as="geometry" />
         </mxCell>
         <mxCell id="p87CbuBcReerhUkE5k2M-79" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="p87CbuBcReerhUkE5k2M-78" vertex="1">
@@ -182,9 +167,6 @@
         </mxCell>
         <mxCell id="p87CbuBcReerhUkE5k2M-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.046;entryY=0.593;entryDx=0;entryDy=0;entryPerimeter=0;" parent="UEzPUAAOIrF-is8g5C7q-175" source="p87CbuBcReerhUkE5k2M-3" target="UEzPUAAOIrF-is8g5C7q-177" edge="1">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="_uzNbw8wHjBa47dtU_Rj-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;+ Support create username+..@dygest.ai&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="UEzPUAAOIrF-is8g5C7q-175">
-          <mxGeometry x="1010" y="19" width="350" height="120" as="geometry" />
         </mxCell>
         <mxCell id="_uzNbw8wHjBa47dtU_Rj-5" value="Action" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="UEzPUAAOIrF-is8g5C7q-175">
           <mxGeometry x="270" y="1219.5" width="100" height="520" as="geometry" />
@@ -306,6 +288,9 @@
             <mxPoint x="990" y="1460.5" as="targetPoint" />
             <mxPoint x="1214.5" y="1459.5" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="_uzNbw8wHjBa47dtU_Rj-33" value="Transform Lambda" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="UEzPUAAOIrF-is8g5C7q-175">
+          <mxGeometry x="230" y="419.5" width="100" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
